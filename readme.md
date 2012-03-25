@@ -2,7 +2,7 @@
 
 Express-like web development framework for Node.JS with better OOP
 
-### intallation
+## intallation
 
 		npm install cargobox
 
@@ -11,7 +11,7 @@ Express-like web development framework for Node.JS with better OOP
 		var cargobox = require('cargobox');
 		var app = new cargobox();
 
-### example templates
+### templating
 
 		app.engine("html", require("ejs").__express);
 		app.set("views", __dirname + '/views');
