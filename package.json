@@ -1,0 +1,22 @@
+{
+  "name": "cargobox",
+  "description": "Web development framework for Node.JS",
+  "author": "Paulius Uza <pauliusuza@gmail.com>",
+  "version": "0.0.2",
+  "private": false,
+  "engines": {
+    "node": ">=0.6.x",
+    "npm":  ">=1.1.x"
+  },
+  "dependencies": {
+    "classful": "1.1.2",
+    "connect": "2.0.3",
+    "mime": "1.2.5"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/mit-license.html"
+  }],
+  "main": "index",
+  "repository": "git://github.com/inruntime/cargobox.git"
+}
