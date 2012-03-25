@@ -53,3 +53,7 @@ Dependencies
 		app.listen(port, function() {
 		  console.log("Listening on " + port);
 		});
+
+### documentation [↑](#start) ###
+
+[MIT License](https://github.com/Gagle/Classful-JS/blob/master/LICENSE)
