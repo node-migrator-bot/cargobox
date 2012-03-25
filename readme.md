@@ -10,11 +10,11 @@ Dependencies
 * connect 2.0.3
 * mime 1.2.5
 
-## intallation [↑](#start) ##
+### intallation [↑](#start) ###
 
 		npm install cargobox
 
-## setup [↑](#start) ##
+### setup [↑](#start) ###
 
 		var cargobox = require('cargobox');
 		var app = new cargobox();
