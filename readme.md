@@ -4,7 +4,8 @@
 
 Express-like web development framework for Node.JS with better OOP
 
-Dependencies:
+Dependencies
+
 * classful 1.1.2
 * connect 2.0.3
 * mime 1.2.5
