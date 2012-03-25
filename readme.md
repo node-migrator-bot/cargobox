@@ -1,4 +1,6 @@
-#cargobox 0.1.0
+<a name="start"></a>
+
+# cargobox 0.1.0 #
 
 Express-like web development framework for Node.JS with better OOP
 
@@ -7,23 +9,23 @@ Dependencies:
 * connect 2.0.3
 * mime 1.2.5
 
-## intallation
+## intallation [↑](#start) ##
 
 		npm install cargobox
 
-## setup
+## setup [↑](#start) ##
 
 		var cargobox = require('cargobox');
 		var app = new cargobox();
 
-### templating
+### templating [↑](#start) ###
 
 		app.engine("html", require("ejs").__express);
 		app.set("views", __dirname + '/views');
 		app.set('view layout', 'layout');
 		app.set('view engine', 'html');
 
-### middleware configuration
+### middleware configuration [↑](#start) ###
 
 		app.use(app.plugins.favicon());
 		app.use(app.plugins.logger('dev'));
@@ -33,7 +35,7 @@ Dependencies:
 		app.use(app.plugins.bodyParser())
 		app.use(app.router);
 
-### routing
+### routing [↑](#start) ###
 
 		app.get('/test', function(req, res) { 
 			res.end('<form method="post"><input name="xzy" type="text" /><button type="submit">Send</button></form>')
@@ -44,7 +46,7 @@ Dependencies:
 			res.redirect(301, '/1');
 		});
 
-### start the server
+### starting the server [↑](#start) ###
 		
 		var port = process.env.PORT || 3000;
 		app.listen(port, function() {
