@@ -44,7 +44,7 @@ Dependencies
 
 		app.post('/test', function(req, res) { 
 			console.log('we have received data over post: ', req.body.xzy);
-			res.redirect(301, '/1');
+			res.redirect(301, '/test');
 		});
 
 ### starting the server [↑](#start) ###
