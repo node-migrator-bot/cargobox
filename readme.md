@@ -1,5 +1,5 @@
 <a name="start"></a>
-# cargobox 0.1.0 #
+# cargobox 0.1.2 #
 
 Express-like web development framework for Node.JS with better OOP
 
