@@ -56,4 +56,4 @@ Dependencies
 
 ### documentation [↑](#start) ###
 
-[MIT License](https://github.com/Gagle/Classful-JS/blob/master/LICENSE)
+[MIT License](https://github.com/inruntime/cargobox/blob/master/LICENSE)
