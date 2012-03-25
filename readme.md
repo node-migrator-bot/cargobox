@@ -1,5 +1,4 @@
 <a name="start"></a>
-
 # cargobox 0.1.0 #
 
 Express-like web development framework for Node.JS with better OOP
@@ -53,6 +52,14 @@ Dependencies
 		app.listen(port, function() {
 		  console.log("Listening on " + port);
 		});
+
+### rendering a the page inside a layout (EJS example) ###
+		
+		<%- body %>
+
+### rendering a sub-view (EJS example) ###
+
+		<%- render('footer') %>
 
 ### documentation [↑](#start) ###
 
