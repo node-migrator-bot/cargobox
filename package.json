@@ -1,6 +1,6 @@
 {
   "name": "cargobox",
-  "description": "Web development framework for Node.JS",
+  "description": "Web development framework for Node.JS (Express port)",
   "author": "Paulius Uza <pauliusuza@gmail.com>",
   "version": "0.1.3",
   "private": false,
@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "connect": "2.0.3",
-    "mime": "1.2.5"
+    "mime": "1.2.5",
+    "commander": "0.5.2",
+    "mkdirp": "0.3.0",
+    "debug": "*"
   },
   "licenses": [{
     "type": "MIT",
